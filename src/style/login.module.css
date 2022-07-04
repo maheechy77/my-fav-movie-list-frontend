@@ -1,0 +1,84 @@
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  height: 350px;
+  padding: 10px;
+  margin: auto;
+  background-color: #f5f4f3;
+  box-shadow: 0px 0px 6px #ccc;
+  border-radius: 4px;
+}
+
+.loginContainer > h2 {
+  font-weight: 700;
+  font-size: 1.8em;
+  color: #41729f;
+}
+
+.loginContainer .loginForm {
+  width: 75%;
+  height: 100%;
+  margin: auto;
+}
+
+.loginContainer .loginForm form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 100%;
+  gap: 15px;
+  width: 100%;
+}
+
+.loginContainer .loginForm form div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.loginContainer .loginForm form label {
+  font-weight: 500;
+  font-size: 1em;
+  padding-right: 10px;
+  color: #274472;
+}
+
+.loginContainer .loginForm form input {
+  border: none;
+  border-bottom: 1px solid gray;
+  outline: none;
+  height: 30px;
+  padding: 2px;
+  width: 100%;
+}
+
+.loginContainer .loginForm form button {
+  width: 100%;
+  height: 40px;
+  font-size: 0.9em;
+  font-weight: 600;
+  margin: auto;
+  color: white;
+  border-radius: 25px;
+  background-color: #274472;
+  border: none;
+  cursor: pointer;
+}
+
+.loginContainer .forgotPassword a {
+  color: #274472;
+  font-size: 0.9em;
+  font-weight: 500;
+  width: 100%;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  font-weight: 600;
+}

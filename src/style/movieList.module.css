@@ -1,0 +1,88 @@
+.movieList {
+  width: 900px;
+  padding: 10px;
+  margin: auto;
+  background-color: #f5f4f3;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  box-shadow: 0px 0px 6px #ccc;
+  border-radius: 4px;
+}
+
+.movieList > h2 {
+  font-weight: 700;
+  font-size: 1.8em;
+  color: #41729f;
+}
+
+.movieListHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.movieListHeader > h4 {
+  font-weight: 500;
+  font-size: 1.2em;
+  color: #41729f;
+}
+
+.movieListHeader > button {
+  height: 32px;
+  background-color: #41729f;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 600;
+}
+
+.movieList .movie {
+  display: flex;
+  gap: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.movieList .movie img {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 150px;
+  transition: width 0.5s ease-in-out, padding 0.5s ease-in-out;
+}
+.movieList .movie img:hover {
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 160px;
+}
+
+.movieList .movie .movieDetails {
+  line-height: 1.2;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.movieList .movie .movieDetails > h3,
+.movieList .movie .movieDetails > h4,
+.movieList .movie .movieDetails > p {
+  color: #274472;
+  margin: 0;
+}
+
+.movieList .movie .movieDetails > h3 {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.movieList .movie .movieDetails > h4 {
+  font-size: 0.95em;
+  font-weight: 600;
+}
+
+.movieList .movie .movieDetails > p {
+  font-size: 0.8em;
+  font-weight: 500;
+}
